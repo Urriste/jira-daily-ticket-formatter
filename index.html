@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daily Jira Formatter</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Generador de nombres de tickets formateados para cargar la daily</h1>
+
+        <input id="ticketId" type="text" placeholder="Id del ticket" class="input">
+        <input id="ticketText" type="text" placeholder="Titulo del ticket" class="input">
+        <button id="generateButton" class="generate-button">Generar nombre formateado</button>
+
+
+        <div class="result-container">
+            <div id="output"></div>
+            <button id="copyButton">Copiar</button>
+        </div>
+    </div>
+</body>
+</html>

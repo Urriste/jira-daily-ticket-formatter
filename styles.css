@@ -1,0 +1,30 @@
+body{
+    background-color: #4C9AFF;
+    font-family: sans-serif;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    width: 100%;
+    height: 100vh;
+}
+
+.result-container{
+    display: flex;
+    gap:10px;
+}
+
+.input{
+    padding: 10px;
+    font-size: 16px;
+}
+
+.generate-button{
+    padding: 10px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 10px;
+}
